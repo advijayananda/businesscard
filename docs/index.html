@@ -1,0 +1,65 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Vijayananda's Digital Card</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="images/icon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+        <script src="https://use.fontawesome.com/071f39fc67.js"></script>   
+        <script src="https://kit.fontawesome.com/c40e589745.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    </head>
+<body>
+     <!-- preloader -->
+ <div class="sk-chase-wrapper">
+    <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+    </div>
+</div>
+<!-- end preloader -->
+    <div class="card">
+        <div class="profile-sidebar">
+            <div class="header">
+                <img class="advocate-logo" src="images/advocatelogowhite.png" alt="Advocate Logo">
+            </div>
+            <img class="profile-image" src="images/profile-image-new.png" alt="Vijayananda">
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <a aria-label="phone" class="contact-link" href="tel:+919845070540" title="Call"><i class="fa fa-phone fa-rotate-90"></i></a></li>
+                <li class="contact-item">
+                    <a aria-label="whatsapp" class="contact-link" href="https://api.whatsapp.com/send?phone=919845070540&text=Hi.%20I%20got%20your%20contact%20from%20your%20*Digital%20Card*.%20Awaiting%20your%20reply." target="_blank" title="Whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+                <li class="contact-item">
+                    <a aria-label="mail" class="contact-link" href="mailto:advijayananda@gmail.com" target="_blank" title="Mail"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="profile-main">
+            <h2 class="profile-name">Vijayananda</h2>
+            <p class="profile-designation">&nbsp IAF(Rtd.)</p>
+            <p class="profile-designation2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp BA LLB</p>
+            <p class="profile-position">ADVOCATE & COMMANDANT</p>
+            <p class="profile-body">-> Legal Services-Arbitrator</p>
+            <p class="profile-body">-> Bank Debt Recovery and SARFAESI Enforcement Agent</p>
+            <p class="profile-body">-> Security and Investigations</p>
+            <p class="profile-body">-> Clean Water Solutions</p>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+        //Preloader
+        preloaderFadeOutTime = 750;
+        function hidePreloader() {
+        var preloader = $('.sk-chase-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
+        }
+        hidePreloader();
+        });
+</script>
+</body>
+</html>
